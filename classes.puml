@@ -16,6 +16,6 @@ User - Stuff : owns
 User *- Stuff : offers for rent
 User -- Stuff : rents
 
-Locker - Stuff : contains
+Stuff - Locker : contains
 
 @enduml
