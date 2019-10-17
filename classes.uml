@@ -1,0 +1,8 @@
+@startuml
+class Car
+
+User - Stuff : owns
+User *- Stuff : offers for rent
+User -- Stuff : rents
+
+@enduml
