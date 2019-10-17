@@ -1,0 +1,16 @@
+@startuml
+
+left to right direction
+
+actor Owner
+actor Tenant
+
+Tenant --> (rent Object)
+Tenant --> (get Object)
+Tenant --> (return Object)
+
+Owner --> (offer Object for rent)
+Owner --> (grant access to Object)
+
+
+@enduml
