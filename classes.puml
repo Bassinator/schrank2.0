@@ -1,11 +1,21 @@
 @startuml
 class User {
   String id
-  List Stuff 
+  List ownedStuff 
 }
 
+class Stuff {
+  String id
+}
+
+class Locker {
+  String id
+  List containedStuff
+}
 User - Stuff : owns
 User *- Stuff : offers for rent
 User -- Stuff : rents
+
+Locker - Stuff : contains
 
 @enduml
