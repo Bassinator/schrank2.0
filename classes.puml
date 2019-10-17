@@ -1,5 +1,8 @@
 @startuml
-class Car
+class User {
+  String id
+  List Stuff 
+}
 
 User - Stuff : owns
 User *- Stuff : offers for rent
